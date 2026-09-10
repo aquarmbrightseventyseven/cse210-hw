@@ -18,9 +18,7 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
-        //job1.DisplayJobDetails();
-        //job2.DisplayJobDetails();
-
+        
         Resume resume = new Resume();
         resume._firstName = "Rose";
         resume._lastName = "Allison";
@@ -29,10 +27,6 @@ class Program
         resume._jobs.Add(job2);
 
         resume.DisplayResumeDetails();
-
-        //Console.WriteLine(resume._jobs[0]._jobTitle);
-
-        //Console.WriteLine($"[{string.Join(",", resume._jobs)}]");
 
 
     }
